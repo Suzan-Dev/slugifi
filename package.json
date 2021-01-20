@@ -3,6 +3,7 @@
   "version": "1.0.1",
   "description": "Slugify a string!",
   "main": "index.js",
+  "bin": "index.js",
   "scripts": {
     "test": "echo \"No test specified\""
   },
@@ -10,5 +11,13 @@
     "slug"
   ],
   "author": "Suzan-Dev",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Suzan-Dev/slugifi.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Suzan-Dev/slugifi/issues"
+  },
+  "homepage": "https://github.com/Suzan-Dev/slugifi",
   "license": "MIT"
 }
