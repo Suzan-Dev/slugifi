@@ -1,0 +1,14 @@
+{
+  "name": "slugifi",
+  "version": "1.0.1",
+  "description": "Slugify a string!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"No test specified\""
+  },
+  "keywords": [
+    "slug"
+  ],
+  "author": "Suzan-Dev",
+  "license": "MIT"
+}
