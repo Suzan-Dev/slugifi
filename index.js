@@ -1,13 +1,11 @@
 const slugifi = (text, options) => {
   const slug = text;
   let separator = '-';
-  let capitalize = false;
 
   if (!text) throw new Error('Please provide a string!');
   if (options?.separator) separator = options.separator;
-  if (options?.capitalize) capitalize = true;
 
-  if (capitalize) {
+  if (options?.capitalize) {
     const capitalizedSlug = slug
       .split(' ')
       .map((el) => {
