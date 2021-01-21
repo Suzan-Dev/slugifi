@@ -13,7 +13,7 @@
   "author": "Suzan-Dev",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Suzan-Dev/slugifi.git"
+    "url": "git+https://github.com/Suzan-Dev/slugifi.git"
   },
   "bugs": {
     "url": "https://github.com/Suzan-Dev/slugifi/issues"
