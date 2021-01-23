@@ -1,6 +1,6 @@
 {
   "name": "slugifi",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Slugify a string!",
   "main": "lib/index.js",
   "bin": "lib/index.js",
