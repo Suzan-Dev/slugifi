@@ -1,4 +1,4 @@
-const slugifi = (text: string, options: Record<string, any>) => {
+const slugifi = (text, options) => {
   const slug = text;
   let separator = '-';
 
