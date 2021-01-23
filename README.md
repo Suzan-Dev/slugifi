@@ -8,16 +8,22 @@
 
 ## Installation
 
-Run
+Npm :
 
 ```
 $ npm install slugifi
 ```
 
-Or
+Yarn :
 
 ```
 $ yarn add slugifi
+```
+
+Pnpm :
+
+```
+$ pnpm add slugifi
 ```
 
 ## Usage
@@ -27,7 +33,7 @@ ES6 :
 ```js
 import slugifi from 'slugifi';
 
-slugifi('some text'); // some text
+slugifi('Some text'); // Outputs: some-text
 ```
 
 CommonJS :
@@ -35,7 +41,7 @@ CommonJS :
 ```js
 const slugifi = require('slugifi');
 
-slugifi('some text'); // some text
+slugifi('Some text'); // Outputs: some-text
 ```
 
 ## Options
