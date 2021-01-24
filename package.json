@@ -7,6 +7,10 @@
   "scripts": {
     "test": "echo \"No test specified\""
   },
+  "files": [
+    "index.js",
+    "README.md"
+  ],
   "keywords": [
     "slug"
   ],

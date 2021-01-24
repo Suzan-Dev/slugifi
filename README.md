@@ -33,7 +33,7 @@ ES6 :
 ```js
 import slugifi from 'slugifi';
 
-slugifi('Some text'); // Outputs: some-text
+slugifi('Random text'); // Outputs: random-text
 ```
 
 CommonJS :
@@ -41,7 +41,7 @@ CommonJS :
 ```js
 const slugifi = require('slugifi');
 
-slugifi('Some text'); // Outputs: some-text
+slugifi('Random text'); // Outputs: random-text
 ```
 
 ## Options
