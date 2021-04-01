@@ -6,6 +6,14 @@
 
 `Slugifi` is small package for creating a slug from a string.
 
+&nbsp;
+
+## Release Notes (v1.0.7)
+
+> You can now remove special characters from string by enabling specialChars property from the options.
+
+&nbsp;
+
 ## Installation
 
 Npm :
@@ -26,6 +34,8 @@ Pnpm :
 $ pnpm add slugifi
 ```
 
+&nbsp;
+
 ## Usage
 
 ES6 :
@@ -44,14 +54,19 @@ const slugifi = require('slugifi');
 slugifi('Random text'); // Outputs: random-text
 ```
 
+&nbsp;
+
 ## Options
 
 ```js
 slugifi('some text', {
   separator: '_', // defaults to '-'
   capitalize: true, // defaults to false
+  specialChars: false, // defaults to true
 });
 ```
+
+&nbsp;
 
 ## License
 
