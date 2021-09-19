@@ -8,6 +8,12 @@
 
 &nbsp;
 
+## Alert
+
+I forgot my npm account password and can't login. so, I can't release a new version to fix a **TypeScript issue**.
+TypeScript users should copy `declare module 'slugifi'` and put it in a file named **index.d.ts** inside `node_modules/slugifi` folder.
+And this package is **no longer maintained**.
+
 ## Release Notes (v1.0.7)
 
 > You can now remove special characters from string by enabling specialChars property from the options.
