@@ -6,8 +6,6 @@
 
 `Slugifi` is small package for creating a slug from a string.
 
-&nbsp;
-
 ## Alert
 
 I forgot my npm account password and can't login. so, I can't release a new version to fix a **TypeScript issue**.
@@ -17,8 +15,6 @@ And this package is **no longer maintained**.
 ## Release Notes (v1.0.7)
 
 > You can now remove special characters from string by enabling specialChars property from the options.
-
-&nbsp;
 
 ## Installation
 
@@ -40,8 +36,6 @@ Pnpm :
 $ pnpm add slugifi
 ```
 
-&nbsp;
-
 ## Usage
 
 ES6 :
@@ -60,8 +54,6 @@ const slugifi = require('slugifi');
 slugifi('Random text'); // Outputs: random-text
 ```
 
-&nbsp;
-
 ## Options
 
 ```js
@@ -71,8 +63,6 @@ slugifi('some text', {
   specialChars: false, // defaults to true
 });
 ```
-
-&nbsp;
 
 ## License
 
